@@ -1,0 +1,5 @@
+hub ATACseqOverlayGelangFernandezAbassah
+shortLabel ATACseqOverlay
+longLabel ATACseqOverlayGelangFernandezAbassah
+genomesFile genomes.txt 
+email  matteo.zoia@dbmr.unibe.ch

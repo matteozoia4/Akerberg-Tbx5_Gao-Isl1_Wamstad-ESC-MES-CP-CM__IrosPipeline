@@ -1,0 +1,216 @@
+track ATAC_Overlay_Abassah_GSM4860413_GSM4860414
+    container multiWig
+    shortLabel Abassah_LPMO
+    longLabel Overlay_LPMO_GSM4860413_GSM4860414 
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track Abassah_GSM4860413
+        parent ATAC_Overlay_Abassah_GSM4860413_GSM4860414
+        bigDataUrl https://de.cyverse.org/dl/d/82FBDB8A-C17B-47F5-854C-E4FC9327F32C/GSM4860413_LPMO_062317_1G_h_01_atac.trim.merged.nodup.tn5.pval.signal.mm10.bigwig
+        shortLabel Abassah_GSM4860413
+        longLabel GSM4860413_LPMO_062317_1G_h_01_atac.trim.merged.nodup.tn5.pval.signal.mm10
+        type bigWig
+        color 250,102,102
+          
+
+        track Abassah_GSM4860414
+        parent ATAC_Overlay_Abassah_GSM4860413_GSM4860414
+        bigDataUrl https://de.cyverse.org/dl/d/F1B0EEA7-ABDB-46D7-BB7B-E85F1E166EE9/GSM4860414_LPMO_062317_1H_h_02_atac.trim.merged.nodup.tn5.pval.signal.mm10.bigwig
+        shortLabel Abassah_GSM4860414
+        longLabel GSM4860414_LPMO_062317_1H_h_02_atac.trim.merged.nodup.tn5.pval.signal.mm10
+        type bigWig
+        color 204,102,102
+        
+        
+track ATAC_Overlay_Abassah_GSM4860413_GSM4860414_
+    container multiWig
+    shortLabel Abassah_LPMO_
+    longLabel Overlay_LPMO_GSM4860413_GSM4860414_  
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+   
+
+        track Abassah_GSM4860413_
+        parent ATAC_Overlay_Abassah_GSM4860413_GSM4860414_
+        bigDataUrl https://de.cyverse.org/dl/d/EFFA2508-119D-49E4-85F2-75940DC73919/LPMO_062317_1G_h_01_atac.rpm.bw
+        shortLabel Abassah_GSM4860413_
+        longLabel GSM4860413_LPMO_062317_1G_h_01_atac_align
+        type bigWig
+        color 250,102,102
+          
+
+        track Abassah_GSM4860414_
+        parent ATAC_Overlay_Abassah_GSM4860413_GSM4860414_
+        bigDataUrl https://de.cyverse.org/dl/d/B748C125-39F4-4593-8DBD-AEEC261C99E9/LPMO_062317_1H_h_02_atac.rpm.bw
+        shortLabel Abassah_GSM4860414_
+        longLabel GSM4860414_LPMO_062317_1H_h_02_atac_align
+        type bigWig
+        color 204,102,102
+    
+        
+track ATAC_Overlay_Fernandez_GSM3529864_GSM3529865
+    container multiWig
+    shortLabel Fernandez_POPM
+    longLabel Overlay_POPM_GSM3529864_GSM3529865  
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+   
+
+        track Fernandez_GSM3529864
+        parent ATAC_Overlay_Fernandez_GSM3529864_GSM3529865
+        bigDataUrl https://de.cyverse.org/dl/d/07FDE635-7F09-487A-849C-07D7CCD2A4D8/GSM3529864-P0PM_1_S1_P0_12.5k_eHcn4_1_ATACseq-align.bw
+        shortLabel Fernandez_GSM3529864
+        longLabel GSM3529864-P0PM_1_S1_P0_12.5k_eHcn4_1_ATACseq-align
+        type bigWig
+        color 204,102,255
+          
+
+        track Fernandez_GSM3529865
+        parent ATAC_Overlay_Fernandez_GSM3529864_GSM3529865
+        bigDataUrl https://de.cyverse.org/dl/d/31CA6144-813C-4FCF-BB52-E8F1309A2A66/GSM3529865-P0PM_2_S1_P0_12.5k_eHcn4_2_ATACseq-align.bw
+        shortLabel Fernandez_GSM3529865
+        longLabel GSM3529865-P0PM_2_S1_P0_12.5k_eHcn4_2_ATACseq-align
+        type bigWig
+        color 153,102,204
+
+
+track ATAC_Overlay_Gelang_GSM4473027_GSM4473028_GSM4473029_GSM4473030
+    container multiWig
+    shortLabel Gelang_PC
+    longLabel Overlay_PC_GSM4473027_GSM4473028_GSM4473029_GSM4473030  
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+   
+
+        track Gelang_GSM4473027
+        parent ATAC_Overlay_Gelang_GSM4473027_GSM4473028_GSM4473029_GSM4473030
+        bigDataUrl https://de.cyverse.org/dl/d/E832800E-3475-49AB-965D-DA19AA8557F7/GSM4473027-PC-ATAC-seq-rep1-align.bw
+        shortLabel Gelang_GSM4473027
+        longLabel GSM4473027-PC-ATAC-seq-rep1-align
+        type bigWig
+        color 102,102,255
+          
+
+        track Gelang_GSM4473028
+        parent ATAC_Overlay_Gelang_GSM4473027_GSM4473028_GSM4473029_GSM4473030
+        bigDataUrl https://de.cyverse.org/dl/d/0B822F52-F746-4CC9-862D-B8B4C29F76EE/GSM4473028-PC-ATAC-seq-rep2-align.bw
+        shortLabel Gelang_GSM4473028
+        longLabel GSM4473028-PC-ATAC-seq-rep2-align
+        type bigWig
+        color 102,153,255
+        
+        
+        track Gelang_GSM4473029
+        parent ATAC_Overlay_Gelang_GSM4473027_GSM4473028_GSM4473029_GSM4473030
+        bigDataUrl https://de.cyverse.org/dl/d/0BEA10BC-F8F4-4400-B1A8-A24482653E12/GSM4473029-PC-ATAC-seq-rep3-align.bw
+        shortLabel Gelang_GSM4473029
+        longLabel GSM4473029-PC-ATAC-seq-rep3-align
+        type bigWig
+        color 102,102,204
+          
+          
+        track Gelang_GSM4473030
+        parent ATAC_Overlay_Gelang_GSM4473027_GSM4473028_GSM4473029_GSM4473030
+        bigDataUrl https://de.cyverse.org/dl/d/87EC3519-64CC-4B3A-AF07-850A0C7DCBCA/GSM4473030-PC-ATAC-seq-rep4-align.bw
+        shortLabel Gelang_GSM4473030
+        longLabel GSM4473030-PC-ATAC-seq-rep4-align
+        type bigWig
+        color 102,153,204
+
+
+track ATAC_Overlay_Gelang_GSM4473031_GSM4473032_GSM4473033
+    container multiWig
+    shortLabel Gelang_RACM
+    longLabel Overlay_RACM_GSM4473031_GSM4473032_GSM4473033  
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+   
+
+        track Gelang_GSM4473031
+        parent ATAC_Overlay_Gelang_GSM4473031_GSM4473032_GSM4473033
+        bigDataUrl https://de.cyverse.org/dl/d/F9D9FC2D-C587-4A05-8B23-124C7894D589/GSM4473031-RACM-ATAC-seq-rep1-align.bw
+        shortLabel Gelang_GSM4473031
+        longLabel GSM4473031-RACM-ATAC-seq-rep1-align
+        type bigWig
+        color 255,153,51
+          
+
+        track Gelang_GSM4473032
+        parent ATAC_Overlay_Gelang_GSM4473031_GSM4473032_GSM4473033
+        bigDataUrl https://de.cyverse.org/dl/d/247B0734-3077-43C8-985E-9ACCC4C298E9/GSM4473032-RACM-ATAC-seq-rep2-align.bw
+        shortLabel Gelang_GSM4473032
+        longLabel GSM4473032-RACM-ATAC-seq-rep2-align
+        type bigWig
+        color 204,153,51
+        
+        
+        track Gelang_GSM4473033
+        parent ATAC_Overlay_Gelang_GSM4473031_GSM4473032_GSM4473033
+        bigDataUrl https://de.cyverse.org/dl/d/35CEBC5C-E3BA-4782-A9E8-2FF3BF39F097/GSM4473033-RACM-ATAC-seq-rep3-align.bw
+        shortLabel Gelang_GSM4473033
+        longLabel GSM44733-RACM-ATAC-seq-rep3-align
+        type bigWig
+        color 153,153,102
+      
