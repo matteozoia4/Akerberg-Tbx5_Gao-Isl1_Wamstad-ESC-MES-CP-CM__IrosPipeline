@@ -66,21 +66,6 @@ track Akerberg_GSM3518659_F_Tbx5_fb2
     color 204,102,102
         
         
-        
-
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    
 track ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
     container multiWig
     shortLabel Akerberg_Adult_Tbx5
@@ -103,7 +88,7 @@ track ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
     
         track Akerberg_GSM3518674_A_Tbx5_fb1
         parent ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
-        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_F_Tbx5_fb1.quality.no.dplcts.bw
+        https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_A_Tbx5_fb1.quality.no.dplcts.bw
         shortLabel Akerberg_GSM3518657
         longLabel Akerberg_GSM3518657_F_Tbx5_fb1
         type bigWig
@@ -112,11 +97,61 @@ track ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
 
         track Akerberg_GSM3518675_A_Tbx5_fb2
         parent ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
-        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_F_Tbx5_fb2.quality.no.dplcts.bw
+        https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_A_Tbx5_fb2.quality.no.dplcts.bw
         shortLabel Akerberg_GSM3518659
         longLabel Akerberg_GSM3518659_F_Tbx5_fb2
         type bigWig
         color 204,102,102
+        
+        
+track Akerberg_GSM3518674_A_Tbx5_fb1
+    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_A_Tbx5_fb1.quality.no.dplcts.bw
+    shortLabel Akerberg_GSM3518674
+    longLabel Akerberg_GSM3518674_A_Tbx5_fb1
+    type bigWig -0.25 37.6
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    color 250,102,102
+    
+
+track Akerberg_GSM3518675_A_Tbx5_fb2
+    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_A_Tbx5_fb2.quality.no.dplcts.bw
+    shortLabel Akerberg_GSM3518675
+    longLabel Akerberg_GSM3518675_A_Tbx5_fb2
+    type bigWig -0.25 37.6
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    color 204,102,102        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
 track ATAC_Overlay_Abassah_GSM4860413_GSM4860414_
