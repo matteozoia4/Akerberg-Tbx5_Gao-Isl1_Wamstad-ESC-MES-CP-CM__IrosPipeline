@@ -270,10 +270,10 @@ visibility dense
 color 102,102,255        
 
 
-track ChIPseq_Overlay_Gao_GSM3597785_Day5_CPC_Isl1
+track ChIPseq_Overlay_Gao_GSM3597784_GSM3597785_Day5_CPC_Isl1_rep1_rep2
     container multiWig
-    shortLabel Gao_CPC_Isl1
-    longLabel 
+    shortLabel Gao_CPC
+    longLabel Overlay_Gao_GSM3597784_GSM3597785_Day5_CPC_Isl1_rep1_rep2
     type bigWig 0 30000
     configurable on
     visibility full
@@ -290,19 +290,19 @@ track ChIPseq_Overlay_Gao_GSM3597785_Day5_CPC_Isl1
     gridDefault off
     
     
-        track 
-        parent ChIPseq_Overlay_Gao_GSM3597785_Day5_CPC_Isl1
+        track Gao_GSM3597784_Day5_CPC_Isl1_IP_rep1
+        parent ChIPseq_Overlay_Gao_GSM3597784_GSM3597785_Day5_CPC_Isl1_rep1_rep2
         bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Gao_Isl1_IrosPipeline/GSM3597784_Day5_CPC_Isl1_IP_rep1_quality_no_dplcts.bw
-        shortLabel 
-        longLabel 
+        shortLabel Gao_CPC
+        longLabel Gao_GSM3597784_Day5_CPC_Isl1_IP_rep1
         type bigWig
         color 250,102,102
           
 
-        track 
-        parent ChIPseq_Overlay_Gao_GSM3597785_Day5_CPC_Isl1
+        track Gao_GSM3597785_Day5_CPC_Isl1_IP_rep2
+        parent ChIPseq_Overlay_Gao_GSM3597784_GSM3597785_Day5_CPC_Isl1_rep1_rep2
         bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Gao_Isl1_IrosPipeline/GSM3597785_Day5_CPC_Isl1_IP_rep2_quality_no_dplcts.bw
-        shortLabel 
-        longLabel 
+        shortLabel Gao_CPC
+        longLabel Gao_GSM3597785_Day5_CPC_Isl1_IP_rep2
         type bigWig
         color 204,102,102
