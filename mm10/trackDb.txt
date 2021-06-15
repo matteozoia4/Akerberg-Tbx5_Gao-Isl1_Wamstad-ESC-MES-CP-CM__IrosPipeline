@@ -1,6 +1,6 @@
 track ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
     container multiWig
-    shortLabel Akerberg_Foetal_Tbx5
+    shortLabel Akerberg_Foetal
     longLabel Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5 
     type bigWig 0 30000
     configurable on
@@ -38,7 +38,7 @@ track ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
 
 track Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518657_GSM3518659_F_Tbx5_fb1_fb2.bw
-shortLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal
+shortLabel Akerberg_Foetal
 longLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2
 type bigWig 0.816622 124.127
 configurable on
@@ -55,7 +55,7 @@ color 230,102,102
     
 track Akerberg_GSM3518657_Foetal_Tbx5__fb1
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_F_Tbx5_fb1.quality.no.dplcts.bw
-shortLabel Akerberg_GSM3518657__Foetal
+shortLabel Akerberg_Foetal
 longLabel Akerberg_GSM3518657_Foetal_Tbx5__fb1
 type bigWig 0.816622 124.127
 configurable on
@@ -72,7 +72,7 @@ color 250,102,102
 
 track Akerberg_GSM3518659_Foetal_Tbx5__fb2
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_F_Tbx5_fb2.quality.no.dplcts.bw
-shortLabel Akerberg_GSM3518659__Foetal
+shortLabel Akerberg_Foetal
 longLabel Akerberg_GSM3518659_Foetal_Tbx5__fb2
 type bigWig 0.816622 124.127
 configurable on
@@ -90,7 +90,7 @@ color 204,102,102
 track Akerberg_GSM3518657_Foetal_Tbx5_fb1_regions
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_GSM3518658_F_Tbx5_fb1_peaks.no.artfs_only_regions.bb
 itemRgb on
-shortLabel Akerberg_Foetal_regions
+shortLabel Akerberg_Foetal
 longLabel Akerberg_GSM3518657_Foetal_Tbx5_fb1_regions       
 type bigBed 3 .
 configurable on
@@ -101,7 +101,7 @@ color 250,102,102
 track Akerberg_GSM3518659_Foetal_Tbx5_fb2_regions
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_GSM3518660_F_Tbx5_fb2_peaks.no.artfs_only_regions.bb
 itemRgb on
-shortLabel Akerberg_Foetal_regions
+shortLabel Akerberg_Foetal
 longLabel Akerberg_GSM3518659_Foetal_Tbx5_fb2_regions        
 type bigBed 3 . 
 configurable on
@@ -112,7 +112,7 @@ color 204,102,102
 track Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2_regions
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518657_GSM3518658_GSM3518659_GSM3518660_F_Tbx5_fb1_fb2_only_regions.bb
 itemRgb on
-shortLabel Akerberg_intersect_Foetal
+shortLabel Akerberg_intersect
 longLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2_regions       
 type bigBed 3 . 
 configurable on
@@ -160,7 +160,7 @@ track ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
 
 track Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518674_GSM3518675_A_Tbx5_fb1_fb2.bw
-shortLabel Akerberg_intersect_Adult
+shortLabel Akerberg_Adult
 longLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2
 type bigWig 0.816622 124.127
 configurable on
@@ -177,7 +177,7 @@ color 230,102,102
 
 track Akerberg_GSM3518674_Adult_Tbx5__fb1
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_A_Tbx5_fb1.quality.no.dplcts.bw
-shortLabel Akerber_Adult
+shortLabel Akerberg_Adult
 longLabel Akerberg_GSM3518674_Adult_Tbx5_fb1
 type bigWig 0.816622 124.127
 configurable on
@@ -212,7 +212,7 @@ color 204,102,102
 track Akerberg_GSM3518674_Adult_Tbx5_fb1_regions
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_GSM3518676_A_Tbx5_fb1_peaks.no.artfs_only_regions.bb
 itemRgb on
-shortLabel Akerberg_Adult_regions
+shortLabel Akerberg_Adult
 longLabel Akerberg_GSM3518674_Adult_Tbx5_fb1_regions        
 type bigBed 3 . 
 configurable on
@@ -223,7 +223,7 @@ color 250,102,102
 track Akerberg_GSM3518675_Adult_Tbx5_fb2_regions
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_GSM3518676_A_Tbx5_fb2_peaks.no.artfs_only_regions.bb
 itemRgb on
-shortLabel Akerberg_Adult_regions
+shortLabel Akerberg_Adult
 longLabel Akerberg_GSM3518675_Adult_Tbx5_fb2_regions        
 type bigBed 3 . 
 configurable on
@@ -234,7 +234,7 @@ color 204,102,102
 track Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2_regions
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518674_GSM3518676_GSM3518675_GSM3518676_A_Tbx5_fb1_fb2_only_regions.bb
 itemRgb on
-shortLabel Akerberg_intersect_Adult_regions
+shortLabel Akerberg_Adult
 longLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2_regions        
 type bigBed 3 . 
 configurable on
@@ -262,7 +262,7 @@ color 102,102,255
 track Gao_GSM3597759_E8_75_Isl1_regions
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Gao_Isl1_IrosPipeline/GSM3597759_GSM3597760_E8_75_Isl1_peaks.no.artfs_only_regions.bb
 itemRgb on
-shortLabel Gao_Embrio_regions
+shortLabel Gao_Embrio
 longLabel Gao_GSM3597759_E8_75_Isl1_regions       
 type bigBed 3 . 
 configurable on
@@ -296,7 +296,7 @@ track ChIPseq_Overlay_Gao_GSM3597784_GSM3597785_Day5_CPC_Isl1_rep1_rep2
         shortLabel Gao_CPC
         longLabel Gao_GSM3597784_Day5_CPC_Isl1_IP_rep1
         type bigWig
-        color 250,102,102
+        color 102,102,255
           
 
         track Gao_GSM3597785_Day5_CPC_Isl1_IP_rep2
@@ -305,4 +305,4 @@ track ChIPseq_Overlay_Gao_GSM3597784_GSM3597785_Day5_CPC_Isl1_rep1_rep2
         shortLabel Gao_CPC
         longLabel Gao_GSM3597785_Day5_CPC_Isl1_IP_rep2
         type bigWig
-        color 204,102,102
+        color 102,153,255
