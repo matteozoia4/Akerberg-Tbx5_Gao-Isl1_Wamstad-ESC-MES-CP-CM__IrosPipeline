@@ -70,12 +70,12 @@ track Akerberg_GSM3518659_F_Tbx5_fb2
     color 204,102,102
         
  
-track 
-    shortLabel 
-    longLabel         
+track Akerberg_GSM3518657_F_Tbx5_fb1_regions
+    shortLabel Akerberg_GSM3518657_regions
+    longLabel Akerberg_GSM3518657_F_Tbx5_fb1_regions       
     type bigBed 3 . 
     configurable on
-    visibility full
+    visibility dense
     scoreFilter 700
     scoreFilterLimits 100:1000
     thickDrawItem on
@@ -91,7 +91,7 @@ track
     longLabel         
     type bigBed 3 . 
     configurable on
-    visibility full
+    visibility dense
     scoreFilter 700
     scoreFilterLimits 100:1000
     thickDrawItem on
@@ -107,7 +107,7 @@ track
     longLabel         
     type bigBed 3 . 
     configurable on
-    visibility full
+    visibility dense
     scoreFilter 700
     scoreFilterLimits 100:1000
     thickDrawItem on
@@ -195,7 +195,7 @@ track
     longLabel         
     type bigBed 3 . 
     configurable on
-    visibility full
+    visibility dense
     scoreFilter 700
     scoreFilterLimits 100:1000
     thickDrawItem on
@@ -211,7 +211,7 @@ track
     longLabel         
     type bigBed 3 . 
     configurable on
-    visibility full
+    visibility dense
     scoreFilter 700
     scoreFilterLimits 100:1000
     thickDrawItem on
@@ -227,7 +227,7 @@ track
     longLabel         
     type bigBed 3 . 
     configurable on
-    visibility full
+    visibility dense
     scoreFilter 700
     scoreFilterLimits 100:1000
     thickDrawItem on
