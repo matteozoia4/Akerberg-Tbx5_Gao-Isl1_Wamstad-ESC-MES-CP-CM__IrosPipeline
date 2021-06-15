@@ -88,54 +88,54 @@ color 204,102,102
         
  
 track Akerberg_GSM3518657_Foetal_Tbx5_fb1_regions
-    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_GSM3518658_F_Tbx5_fb1_peaks.no.artfs_only_regions.bb
-    shortLabel Akerberg_GSM3518657_Foetal_regions
-    longLabel Akerberg_GSM3518657_Foetal_Tbx5_fb1_regions       
-    type bigBed 3 . 
-    configurable on
-    visibility dense
-    scoreFilter 700
-    scoreFilterLimits 100:1000
-    thickDrawItem on
-    spectrum on
-    scoreMin 700
-    scoreMax 900
-    color 250,102,102
-    minGrayLevel   4        
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_GSM3518658_F_Tbx5_fb1_peaks.no.artfs_only_regions.bb
+shortLabel Akerberg_GSM3518657_Foetal_regions
+longLabel Akerberg_GSM3518657_Foetal_Tbx5_fb1_regions       
+type bigBed 3 .
+configurable on
+visibility dense
+scoreFilter 700
+scoreFilterLimits 100:1000
+thickDrawItem on
+spectrum on
+scoreMin 700
+scoreMax 900
+color 250,102,102
+minGrayLevel   4        
 
 
 track Akerberg_GSM3518659_Foetal_Tbx5_fb2_regions
-    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_GSM3518660_F_Tbx5_fb2_peaks.no.artfs_only_regions.bb
-    shortLabel Akerberg_GSM3518659_Foetal_regions
-    longLabel Akerberg_GSM3518659_Foetal_Tbx5_fb2_regions        
-    type bigBed 3 . 
-    configurable on
-    visibility dense
-    scoreFilter 700
-    scoreFilterLimits 100:1000
-    thickDrawItem on
-    spectrum on
-    scoreMin 700
-    scoreMax 900
-    color 204,102,102
-    minGrayLevel   4
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_GSM3518660_F_Tbx5_fb2_peaks.no.artfs_only_regions.bb
+shortLabel Akerberg_GSM3518659_Foetal_regions
+longLabel Akerberg_GSM3518659_Foetal_Tbx5_fb2_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+scoreFilter 700
+scoreFilterLimits 100:1000
+thickDrawItem on
+spectrum on
+scoreMin 700
+scoreMax 900
+color 204,102,102
+minGrayLevel   4
         
         
 track Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2_regions
-    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518657_GSM3518658_GSM3518659_GSM3518660_F_Tbx5_fb1_fb2_only_regions.bb
-    shortLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal
-    longLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2_regions       
-    type bigBed 3 . 
-    configurable on
-    visibility dense
-    scoreFilter 700
-    scoreFilterLimits 100:1000
-    thickDrawItem on
-    spectrum on
-    scoreMin 700
-    scoreMax 900
-    color 230,102,102
-    minGrayLevel   4  
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518657_GSM3518658_GSM3518659_GSM3518660_F_Tbx5_fb1_fb2_only_regions.bb
+shortLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal
+longLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2_regions       
+type bigBed 3 . 
+configurable on
+visibility dense
+scoreFilter 700
+scoreFilterLimits 100:1000
+thickDrawItem on
+spectrum on
+scoreMin 700
+scoreMax 900
+color 230,102,102
+minGrayLevel   4  
  
  
 track ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
@@ -160,7 +160,7 @@ track ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
     
         track Akerberg_GSM3518674_Adult_Tbx5_fb1
         parent ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
-        https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_A_Tbx5_fb1.quality.no.dplcts.bw
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_A_Tbx5_fb1.quality.no.dplcts.bw
         shortLabel Akerberg_GSM3518657_Foetal
         longLabel Akerberg_GSM3518657_Foetal_Tbx5_fb1
         type bigWig
@@ -169,7 +169,7 @@ track ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
 
         track Akerberg_GSM3518675_Adult_Tbx5_fb2
         parent ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
-        https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_A_Tbx5_fb2.quality.no.dplcts.bw
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_A_Tbx5_fb2.quality.no.dplcts.bw
         shortLabel Akerberg_GSM3518659_Adult
         longLabel Akerberg_GSM3518659_Adult_Tbx5_fb2
         type bigWig
@@ -177,103 +177,103 @@ track ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
         
 
 track Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2
-    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518674_GSM3518675_A_Tbx5_fb1_fb2.bw
-    shortLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult
-    longLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2
-    type bigWig -0.25 37.6
-    configurable on
-    visibility full
-    windowingFunction mean+whiskers
-    viewLimits 0:20
-    viewLimitsMax 0:20
-    maxHeightPixels 100:30:18
-    yLineOnOff off
-    yLineMark 1
-    gridDefault off
-    color 230,102,102
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518674_GSM3518675_A_Tbx5_fb1_fb2.bw
+shortLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult
+longLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2
+type bigWig -0.25 37.6
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0:20
+viewLimitsMax 0:20
+maxHeightPixels 100:30:18
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 230,102,102
 
 
 track Akerberg_GSM3518674_Adult_Tbx5_fb1
-    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_A_Tbx5_fb1.quality.no.dplcts.bw
-    shortLabel Akerberg_GSM3518674_Adult
-    longLabel Akerberg_GSM3518674_Adult_Tbx5_fb1
-    type bigWig -0.25 37.6
-    configurable on
-    visibility full
-    windowingFunction mean+whiskers
-    viewLimits 0:20
-    viewLimitsMax 0:20
-    maxHeightPixels 100:30:18
-    yLineOnOff off
-    yLineMark 1
-    gridDefault off
-    color 250,102,102
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_A_Tbx5_fb1.quality.no.dplcts.bw
+shortLabel Akerberg_GSM3518674_Adult
+longLabel Akerberg_GSM3518674_Adult_Tbx5_fb1
+type bigWig -0.25 37.6
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0:20
+viewLimitsMax 0:20
+maxHeightPixels 100:30:18
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 250,102,102
     
 
 track Akerberg_GSM3518675_Adult_Tbx5_fb2
-    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_A_Tbx5_fb2.quality.no.dplcts.bw
-    shortLabel Akerberg_GSM3518675_Adult
-    longLabel Akerberg_GSM3518675_Adult_Tbx5_fb2
-    type bigWig -0.25 37.6
-    configurable on
-    visibility full
-    windowingFunction mean+whiskers
-    viewLimits 0:20
-    viewLimitsMax 0:20
-    maxHeightPixels 100:30:18
-    yLineOnOff off
-    yLineMark 1
-    gridDefault off
-    color 204,102,102        
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_A_Tbx5_fb2.quality.no.dplcts.bw
+shortLabel Akerberg_GSM3518675_Adult
+longLabel Akerberg_GSM3518675_Adult_Tbx5_fb2
+type bigWig -0.25 37.6
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0:20
+viewLimitsMax 0:20
+maxHeightPixels 100:30:18
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,102,102        
         
         
 track Akerberg_GSM3518674_Adult_Tbx5_fb1_regions
-    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_GSM3518676_A_Tbx5_fb1_peaks.no.artfs_only_regions.bb
-    shortLabel Akerberg_GSM3518674_Adult_regions
-    longLabel Akerberg_GSM3518674_Adult_Tbx5_fb1_regions        
-    type bigBed 3 . 
-    configurable on
-    visibility dense
-    scoreFilter 700
-    scoreFilterLimits 100:1000
-    thickDrawItem on
-    spectrum on
-    scoreMin 700
-    scoreMax 900
-    color 0,0,255
-    minGrayLevel   4        
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_GSM3518676_A_Tbx5_fb1_peaks.no.artfs_only_regions.bb
+shortLabel Akerberg_GSM3518674_Adult_regions
+longLabel Akerberg_GSM3518674_Adult_Tbx5_fb1_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+scoreFilter 700
+scoreFilterLimits 100:1000
+thickDrawItem on
+spectrum on
+scoreMin 700
+scoreMax 900
+color 0,0,255
+minGrayLevel   4        
 
 
 track Akerberg_GSM3518675_Adult_Tbx5_fb2_regions
-    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_GSM3518676_A_Tbx5_fb2_peaks.no.artfs_only_regions.bb
-    shortLabel Akerberg_GSM3518675_Adult_regions
-    longLabel Akerberg_GSM3518675_Adult_Tbx5_fb2_regions        
-    type bigBed 3 . 
-    configurable on
-    visibility dense
-    scoreFilter 700
-    scoreFilterLimits 100:1000
-    thickDrawItem on
-    spectrum on
-    scoreMin 700
-    scoreMax 900
-    color 0,0,255
-    minGrayLevel   4
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_GSM3518676_A_Tbx5_fb2_peaks.no.artfs_only_regions.bb
+shortLabel Akerberg_GSM3518675_Adult_regions
+longLabel Akerberg_GSM3518675_Adult_Tbx5_fb2_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+scoreFilter 700
+scoreFilterLimits 100:1000
+thickDrawItem on
+spectrum on
+scoreMin 700
+scoreMax 900
+color 0,0,255
+minGrayLevel   4
         
         
 track Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2_regions
-    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518674_GSM3518676_GSM3518675_GSM3518676_A_Tbx5_fb1_fb2_only_regions.bb
-    shortLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult_regions
-    longLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2_regions        
-    type bigBed 3 . 
-    configurable on
-    visibility dense
-    scoreFilter 700
-    scoreFilterLimits 100:1000
-    thickDrawItem on
-    spectrum on
-    scoreMin 700
-    scoreMax 900
-    color 0,0,255
-    minGrayLevel   4        
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518674_GSM3518676_GSM3518675_GSM3518676_A_Tbx5_fb1_fb2_only_regions.bb
+shortLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult_regions
+longLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+scoreFilter 700
+scoreFilterLimits 100:1000
+thickDrawItem on
+spectrum on
+scoreMin 700
+scoreMax 900
+color 0,0,255
+minGrayLevel   4        
         
