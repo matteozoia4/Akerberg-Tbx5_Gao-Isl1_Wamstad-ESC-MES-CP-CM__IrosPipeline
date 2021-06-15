@@ -227,9 +227,10 @@ track Akerberg_GSM3518675_Adult_Tbx5_fb2
     color 204,102,102        
         
         
-track 
-    shortLabel 
-    longLabel         
+track Akerberg_GSM3518674_Adult_Tbx5_fb1_regions
+    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_GSM3518676_A_Tbx5_fb1_peaks.no.artfs_only_regions.bb
+    shortLabel Akerberg_GSM3518674_Adult_regions
+    longLabel Akerberg_GSM3518674_Adult_Tbx5_fb1_regions        
     type bigBed 3 . 
     configurable on
     visibility dense
@@ -243,9 +244,10 @@ track
     minGrayLevel   4        
 
 
-track 
-    shortLabel 
-    longLabel         
+track Akerberg_GSM3518675_Adult_Tbx5_fb2_regions
+    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_GSM3518676_A_Tbx5_fb2_peaks.no.artfs_only_regions.bb
+    shortLabel Akerberg_GSM3518675_Adult_regions
+    longLabel Akerberg_GSM3518675_Adult_Tbx5_fb2_regions        
     type bigBed 3 . 
     configurable on
     visibility dense
@@ -259,9 +261,10 @@ track
     minGrayLevel   4
         
         
-track 
-    shortLabel 
-    longLabel         
+track Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2_regions
+    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518674_GSM3518676_GSM3518675_GSM3518676_A_Tbx5_fb1_fb2_only_regions.bb
+    shortLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult_regions
+    longLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2_regions        
     type bigBed 3 . 
     configurable on
     visibility dense
