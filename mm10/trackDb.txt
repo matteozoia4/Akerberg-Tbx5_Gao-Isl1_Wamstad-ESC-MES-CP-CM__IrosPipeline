@@ -308,6 +308,40 @@ track ChIPseq_Overlay_Gao_GSM3597784_GSM3597785_Day5_CPC_Isl1_rep1_rep2
         color 102,153,255
 
 
+track Gao_GSM3597784_Day5_CPC_Isl1_IP__rep1
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Gao_Isl1_IrosPipeline/GSM3597784_Day5_CPC_Isl1_IP_rep1_quality_no_dplcts.bw
+shortLabel Gao_CPC
+longLabel Gao_GSM3597784_Day5_CPC_Isl1_IP_rep1
+type bigWig 0.816622 10
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 102,102,255
+
+
+track Gao_GSM3597785_Day5_CPC_Isl1_IP__rep2
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Gao_Isl1_IrosPipeline/GSM3597785_Day5_CPC_Isl1_IP_rep2_quality_no_dplcts.bw
+shortLabel Gao_CPC
+longLabel Gao_GSM3597785_Day5_CPC_Isl1_IP_rep2
+type bigWig 0.816622 10
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 102,153,255
+
+
 track Gao_intersect_GSM3597784_GSM3597785_CPC_Isl1_IP_rep1_rep2
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Gao_Isl1_IrosPipeline/intersect_GSM3597784_GSM3597785_CPC_Isl1_IP_rep1_2.bw
 shortLabel Gao_CPC
