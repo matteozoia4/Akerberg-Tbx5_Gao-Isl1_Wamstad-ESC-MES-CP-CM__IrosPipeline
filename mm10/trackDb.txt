@@ -21,7 +21,7 @@ track ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
         track Akerberg_GSM3518657_Foetal_Tbx5_fb1
         parent ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
         bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_F_Tbx5_fb1.quality.no.dplcts.bw
-        shortLabel Akerberg_GSM3518657
+        shortLabel Akerberg_GSM3518657_Foetal
         longLabel Akerberg_GSM3518657_Foetal_Tbx5_fb1
         type bigWig
         color 250,102,102
@@ -30,7 +30,7 @@ track ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
         track Akerberg_GSM3518659_Foetal_Tbx5_fb2
         parent ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
         bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_F_Tbx5_fb2.quality.no.dplcts.bw
-        shortLabel Akerberg_GSM3518659
+        shortLabel Akerberg_GSM3518659_Foetal
         longLabel Akerberg_GSM3518659_Foetal_Tbx5_fb2
         type bigWig
         color 204,102,102
@@ -53,10 +53,10 @@ gridDefault off
 color 230,102,102
     
     
-track Akerberg_GSM3518657_Foetal_Tbx5_fb1_
+track Akerberg_GSM3518657_Foetal_Tbx5__fb1
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_F_Tbx5_fb1.quality.no.dplcts.bw
-shortLabel Akerberg_GSM3518657_Foetal
-longLabel Akerberg_GSM3518657_Foetal_Tbx5_fb1_
+shortLabel Akerberg_GSM3518657__Foetal
+longLabel Akerberg_GSM3518657_Foetal_Tbx5__fb1
 type bigWig -0.25 37.6
 configurable on
 visibility full
@@ -70,10 +70,10 @@ gridDefault off
 color 250,102,102
     
 
-track Akerberg_GSM3518659_Foetal_Tbx5_fb2_
+track Akerberg_GSM3518659_Foetal_Tbx5__fb2
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_F_Tbx5_fb2.quality.no.dplcts.bw
-shortLabel Akerberg_GSM3518659_Foetal
-longLabel Akerberg_GSM3518659_Foetal_Tbx5_fb2_
+shortLabel Akerberg_GSM3518659__Foetal
+longLabel Akerberg_GSM3518659_Foetal_Tbx5__fb2
 type bigWig -0.25 37.6
 configurable on
 visibility full
@@ -161,8 +161,8 @@ track ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
         track Akerberg_GSM3518674_Adult_Tbx5_fb1
         parent ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
         bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_A_Tbx5_fb1.quality.no.dplcts.bw
-        shortLabel Akerberg_GSM3518657_Foetal
-        longLabel Akerberg_GSM3518657_Foetal_Tbx5_fb1
+        shortLabel Akerberg_GSM3518674_Adult
+        longLabel Akerberg_GSM3518674_Adult_Tbx5_fb1
         type bigWig
         color 250,102,102
           
@@ -170,8 +170,8 @@ track ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
         track Akerberg_GSM3518675_Adult_Tbx5_fb2
         parent ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
         bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_A_Tbx5_fb2.quality.no.dplcts.bw
-        shortLabel Akerberg_GSM3518659_Adult
-        longLabel Akerberg_GSM3518659_Adult_Tbx5_fb2
+        shortLabel Akerberg_GSM3518675_Adult
+        longLabel Akerberg_GSM3518675_Adult_Tbx5_fb2
         type bigWig
         color 204,102,102
         
@@ -193,10 +193,10 @@ gridDefault off
 color 230,102,102
 
 
-track Akerberg_GSM3518674_Adult_Tbx5_fb1_
+track Akerberg_GSM3518674_Adult_Tbx5__fb1
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_A_Tbx5_fb1.quality.no.dplcts.bw
-shortLabel Akerberg_GSM3518674_Adult
-longLabel Akerberg_GSM3518674_Adult_Tbx5_fb1_
+shortLabel Akerberg_GSM3518674__Adult
+longLabel Akerberg_GSM3518674_Adult_Tbx5__fb1
 type bigWig -0.25 37.6
 configurable on
 visibility full
@@ -210,10 +210,10 @@ gridDefault off
 color 250,102,102
     
 
-track Akerberg_GSM3518675_Adult_Tbx5_fb2_
+track Akerberg_GSM3518675_Adult_Tbx5__fb2
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_A_Tbx5_fb2.quality.no.dplcts.bw
-shortLabel Akerberg_GSM3518675_Adult
-longLabel Akerberg_GSM3518675_Adult_Tbx5_fb2_
+shortLabel Akerberg_GSM3518675__Adult
+longLabel Akerberg_GSM3518675_Adult_Tbx5__fb2
 type bigWig -0.25 37.6
 configurable on
 visibility full
