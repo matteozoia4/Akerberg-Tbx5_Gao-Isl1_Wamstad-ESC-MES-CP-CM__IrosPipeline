@@ -112,7 +112,7 @@ color 204,102,102
 track Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2_regions
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518657_GSM3518658_GSM3518659_GSM3518660_F_Tbx5_fb1_fb2_only_regions.bb
 itemRgb on
-shortLabel Akerberg_intersect
+shortLabel Akerberg_Foetal
 longLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2_regions       
 type bigBed 3 . 
 configurable on
