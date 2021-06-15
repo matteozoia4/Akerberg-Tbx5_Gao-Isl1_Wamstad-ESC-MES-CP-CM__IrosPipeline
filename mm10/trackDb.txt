@@ -1,7 +1,7 @@
-track ATAC_Overlay_Abassah_GSM4860413_GSM4860414
+track ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
     container multiWig
-    shortLabel Abassah_LPMO
-    longLabel Overlay_LPMO_GSM4860413_GSM4860414 
+    shortLabel Akerberg_Foetal_Tbx5
+    longLabel Overlay_Akerberg_ 
     type bigWig 0 30000
     configurable on
     visibility full
@@ -18,8 +18,8 @@ track ATAC_Overlay_Abassah_GSM4860413_GSM4860414
     gridDefault off
     
     
-        track Abassah_GSM4860413
-        parent ATAC_Overlay_Abassah_GSM4860413_GSM4860414
+        track Akerberg_GSM3518657_F_Tbx5_fb1
+        parent ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
         bigDataUrl https://de.cyverse.org/dl/d/82FBDB8A-C17B-47F5-854C-E4FC9327F32C/GSM4860413_LPMO_062317_1G_h_01_atac.trim.merged.nodup.tn5.pval.signal.mm10.bigwig
         shortLabel Abassah_GSM4860413
         longLabel GSM4860413_LPMO_062317_1G_h_01_atac.trim.merged.nodup.tn5.pval.signal.mm10
@@ -27,8 +27,8 @@ track ATAC_Overlay_Abassah_GSM4860413_GSM4860414
         color 250,102,102
           
 
-        track Abassah_GSM4860414
-        parent ATAC_Overlay_Abassah_GSM4860413_GSM4860414
+        track GSM3518659_F_Tbx5_fb2.quality.no.dplcts.bw
+        parent ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
         bigDataUrl https://de.cyverse.org/dl/d/F1B0EEA7-ABDB-46D7-BB7B-E85F1E166EE9/GSM4860414_LPMO_062317_1H_h_02_atac.trim.merged.nodup.tn5.pval.signal.mm10.bigwig
         shortLabel Abassah_GSM4860414
         longLabel GSM4860414_LPMO_062317_1H_h_02_atac.trim.merged.nodup.tn5.pval.signal.mm10
