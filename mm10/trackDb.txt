@@ -51,10 +51,10 @@ track Akerberg_GSM3518657_F_Tbx5_fb1
     color 250,102,102
     
 
-track Akerberg_GSM3518657_F_Tbx5_fb1
-    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_F_Tbx5_fb1.quality.no.dplcts.bw
-    shortLabel Akerberg_GSM3518657
-    longLabel Akerberg_GSM3518657_F_Tbx5_fb1
+track Akerberg_GSM3518659_F_Tbx5_fb2
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_F_Tbx5_fb2.quality.no.dplcts.bw
+    shortLabel Akerberg_GSM3518659
+    longLabel Akerberg_GSM3518659_F_Tbx5_fb2
     type bigWig -0.25 37.6
     windowingFunction mean+whiskers
     viewLimits 0:20
@@ -63,7 +63,7 @@ track Akerberg_GSM3518657_F_Tbx5_fb1
     yLineOnOff off
     yLineMark 1
     gridDefault off
-    color 250,102,102
+    color 204,102,102
         
         
         
