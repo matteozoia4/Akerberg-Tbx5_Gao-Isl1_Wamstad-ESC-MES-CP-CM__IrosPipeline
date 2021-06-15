@@ -95,8 +95,7 @@ longLabel Akerberg_GSM3518657_Foetal_Tbx5_fb1_regions
 type bigBed 3 .
 configurable on
 visibility dense
-color 250,102,102
-minGrayLevel   off        
+color 250,102,102        
 
 
 track Akerberg_GSM3518659_Foetal_Tbx5_fb2_regions
@@ -108,7 +107,6 @@ type bigBed 3 .
 configurable on
 visibility dense
 color 204,102,102
-minGrayLevel   off
         
         
 track Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2_regions
@@ -119,8 +117,7 @@ longLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 230,102,102
-minGrayLevel   off  
+color 230,102,102  
  
  
 track ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
@@ -220,8 +217,7 @@ longLabel Akerberg_GSM3518674_Adult_Tbx5_fb1_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 250,102,102
-minGrayLevel   off        
+color 250,102,102        
 
 
 track Akerberg_GSM3518675_Adult_Tbx5_fb2_regions
@@ -233,7 +229,6 @@ type bigBed 3 .
 configurable on
 visibility dense
 color 204,102,102
-minGrayLevel   off
         
         
 track Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2_regions
@@ -245,5 +240,5 @@ type bigBed 3 .
 configurable on
 visibility dense
 color 230,102,102
-minGrayLevel   off        
+        
         
