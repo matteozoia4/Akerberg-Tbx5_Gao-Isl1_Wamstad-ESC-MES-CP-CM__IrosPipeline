@@ -53,7 +53,7 @@ gridDefault off
 color 230,102,102
     
     
-track Akerberg_GSM3518657_Foetal_Tbx5_fb1
+track Akerberg_GSM3518657_Foetal_Tbx5_fb1_
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_F_Tbx5_fb1.quality.no.dplcts.bw
 shortLabel Akerberg_GSM3518657_Foetal
 longLabel Akerberg_GSM3518657_Foetal_Tbx5_fb1
@@ -70,7 +70,7 @@ gridDefault off
 color 250,102,102
     
 
-track Akerberg_GSM3518659_Foetal_Tbx5_fb2
+track Akerberg_GSM3518659_Foetal_Tbx5_fb2_
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_F_Tbx5_fb2.quality.no.dplcts.bw
 shortLabel Akerberg_GSM3518659_Foetal
 longLabel Akerberg_GSM3518659_Foetal_Tbx5_fb2
@@ -193,7 +193,7 @@ gridDefault off
 color 230,102,102
 
 
-track Akerberg_GSM3518674_Adult_Tbx5_fb1
+track Akerberg_GSM3518674_Adult_Tbx5_fb1_
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_A_Tbx5_fb1.quality.no.dplcts.bw
 shortLabel Akerberg_GSM3518674_Adult
 longLabel Akerberg_GSM3518674_Adult_Tbx5_fb1
@@ -210,7 +210,7 @@ gridDefault off
 color 250,102,102
     
 
-track Akerberg_GSM3518675_Adult_Tbx5_fb2
+track Akerberg_GSM3518675_Adult_Tbx5_fb2_
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_A_Tbx5_fb2.quality.no.dplcts.bw
 shortLabel Akerberg_GSM3518675_Adult
 longLabel Akerberg_GSM3518675_Adult_Tbx5_fb2
