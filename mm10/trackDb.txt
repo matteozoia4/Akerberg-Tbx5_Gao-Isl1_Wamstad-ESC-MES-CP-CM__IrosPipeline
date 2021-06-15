@@ -234,6 +234,7 @@ color 204,102,102
 track Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2_regions
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518674_GSM3518676_GSM3518675_GSM3518676_A_Tbx5_fb1_fb2_only_regions.bb
 itemRgb on
+showSubtrackColorOnUi on
 shortLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult_regions
 longLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2_regions        
 type bigBed 3 . 
