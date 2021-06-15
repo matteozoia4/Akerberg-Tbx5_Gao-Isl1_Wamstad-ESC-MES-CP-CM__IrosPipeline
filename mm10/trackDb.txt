@@ -251,12 +251,12 @@ longLabel Akerberg_GSM3518675_Adult_Tbx5_fb2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-scoreFilter 700
-scoreFilterLimits 100:1000
+scoreFilter off
+scoreFilterLimits off
 thickDrawItem on
 spectrum on
-scoreMin 700
-scoreMax 900
+scoreMin off
+scoreMax off
 color 204,102,102
 minGrayLevel   4
         
