@@ -1,5 +1,5 @@
-hub ChIPseqAkerbergTbx5GaoIsl1
-shortLabel ChIPseqAkerbergTbx5GaoIsl1
-longLabel ChIPseqAkerbergTbx5GaoIsl1
+hub ChIPseq Akerberg Tbx5 Gao Isl1
+shortLabel ChIPseq Akerberg Tbx5 Gao Isl1
+longLabel ChIPseq Akerberg Tbx5 Gao Isl1
 genomesFile genomes.txt 
 email  matteo.zoia@dbmr.unibe.ch
