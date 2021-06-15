@@ -37,7 +37,7 @@ track ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
 
 
 track Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2
-    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518657_GSM3518659_F_Tbx5_fb1_fb2.bw
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518657_GSM3518659_F_Tbx5_fb1_fb2.bw
     shortLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal
     longLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2
     type bigWig -0.25 37.6
