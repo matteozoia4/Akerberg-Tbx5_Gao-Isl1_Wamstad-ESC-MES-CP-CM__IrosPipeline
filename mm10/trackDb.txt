@@ -240,7 +240,7 @@ thickDrawItem on
 spectrum on
 scoreMin 700
 scoreMax 900
-color 0,0,255
+color 250,102,102
 minGrayLevel   4        
 
 
@@ -257,7 +257,7 @@ thickDrawItem on
 spectrum on
 scoreMin 700
 scoreMax 900
-color 0,0,255
+color 204,102,102
 minGrayLevel   4
         
         
@@ -274,6 +274,6 @@ thickDrawItem on
 spectrum on
 scoreMin 700
 scoreMax 900
-color 0,0,255
+color 230,102,102
 minGrayLevel   4        
         
