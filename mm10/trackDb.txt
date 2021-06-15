@@ -41,6 +41,8 @@ track Akerberg_GSM3518657_F_Tbx5_fb1
     shortLabel Akerberg_GSM3518657
     longLabel Akerberg_GSM3518657_F_Tbx5_fb1
     type bigWig -0.25 37.6
+    configurable on
+    visibility full
     windowingFunction mean+whiskers
     viewLimits 0:20
     viewLimitsMax 0:20
@@ -56,6 +58,8 @@ track Akerberg_GSM3518659_F_Tbx5_fb2
     shortLabel Akerberg_GSM3518659
     longLabel Akerberg_GSM3518659_F_Tbx5_fb2
     type bigWig -0.25 37.6
+    configurable on
+    visibility full
     windowingFunction mean+whiskers
     viewLimits 0:20
     viewLimitsMax 0:20
@@ -65,7 +69,55 @@ track Akerberg_GSM3518659_F_Tbx5_fb2
     gridDefault off
     color 204,102,102
         
+ 
+track 
+    shortLabel 
+    longLabel         
+    type bigBed 3 . 
+    configurable on
+    visibility full
+    scoreFilter 700
+    scoreFilterLimits 100:1000
+    thickDrawItem on
+    spectrum on
+    scoreMin 700
+    scoreMax 900
+    color 0,0,255
+    minGrayLevel   4        
+
+
+track 
+    shortLabel 
+    longLabel         
+    type bigBed 3 . 
+    configurable on
+    visibility full
+    scoreFilter 700
+    scoreFilterLimits 100:1000
+    thickDrawItem on
+    spectrum on
+    scoreMin 700
+    scoreMax 900
+    color 0,0,255
+    minGrayLevel   4
         
+        
+track 
+    shortLabel 
+    longLabel         
+    type bigBed 3 . 
+    configurable on
+    visibility full
+    scoreFilter 700
+    scoreFilterLimits 100:1000
+    thickDrawItem on
+    spectrum on
+    scoreMin 700
+    scoreMax 900
+    color 0,0,255
+    minGrayLevel   4  
+ 
+ 
 track ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
     container multiWig
     shortLabel Akerberg_Adult_Tbx5
@@ -109,6 +161,8 @@ track Akerberg_GSM3518674_A_Tbx5_fb1
     shortLabel Akerberg_GSM3518674
     longLabel Akerberg_GSM3518674_A_Tbx5_fb1
     type bigWig -0.25 37.6
+    configurable on
+    visibility full
     windowingFunction mean+whiskers
     viewLimits 0:20
     viewLimitsMax 0:20
@@ -124,6 +178,8 @@ track Akerberg_GSM3518675_A_Tbx5_fb2
     shortLabel Akerberg_GSM3518675
     longLabel Akerberg_GSM3518675_A_Tbx5_fb2
     type bigWig -0.25 37.6
+    configurable on
+    visibility full
     windowingFunction mean+whiskers
     viewLimits 0:20
     viewLimitsMax 0:20
@@ -134,29 +190,50 @@ track Akerberg_GSM3518675_A_Tbx5_fb2
     color 204,102,102        
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-
-    
-        color 204,102,255
-        color 153,102,204
-
-
-        color 102,102,255     
-        color 102,153,255
-        
-        
-        color 102,102,204
-        color 102,153,204
+track 
+    shortLabel 
+    longLabel         
+    type bigBed 3 . 
+    configurable on
+    visibility full
+    scoreFilter 700
+    scoreFilterLimits 100:1000
+    thickDrawItem on
+    spectrum on
+    scoreMin 700
+    scoreMax 900
+    color 0,0,255
+    minGrayLevel   4        
 
 
-        color 255,153,51
-        color 204,153,51
-        color 153,153,102
-      
+track 
+    shortLabel 
+    longLabel         
+    type bigBed 3 . 
+    configurable on
+    visibility full
+    scoreFilter 700
+    scoreFilterLimits 100:1000
+    thickDrawItem on
+    spectrum on
+    scoreMin 700
+    scoreMax 900
+    color 0,0,255
+    minGrayLevel   4
+        
+        
+track 
+    shortLabel 
+    longLabel         
+    type bigBed 3 . 
+    configurable on
+    visibility full
+    scoreFilter 700
+    scoreFilterLimits 100:1000
+    thickDrawItem on
+    spectrum on
+    scoreMin 700
+    scoreMax 900
+    color 0,0,255
+    minGrayLevel   4        
+        
