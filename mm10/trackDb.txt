@@ -18,28 +18,45 @@ track ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
     gridDefault off
     
     
-        track Akerberg_GSM3518657_F_Tbx5_fb1
+        track Akerberg_GSM3518657_Foetal_Tbx5_fb1
         parent ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
         bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_F_Tbx5_fb1.quality.no.dplcts.bw
         shortLabel Akerberg_GSM3518657
-        longLabel Akerberg_GSM3518657_F_Tbx5_fb1
+        longLabel Akerberg_GSM3518657_Foetal_Tbx5_fb1
         type bigWig
         color 250,102,102
           
 
-        track Akerberg_GSM3518659_F_Tbx5_fb2
+        track Akerberg_GSM3518659_Foetal_Tbx5_fb2
         parent ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
         bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_F_Tbx5_fb2.quality.no.dplcts.bw
         shortLabel Akerberg_GSM3518659
-        longLabel Akerberg_GSM3518659_F_Tbx5_fb2
+        longLabel Akerberg_GSM3518659_Foetal_Tbx5_fb2
         type bigWig
         color 204,102,102
 
 
-track Akerberg_GSM3518657_F_Tbx5_fb1
+track Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2
+    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518657_GSM3518659_F_Tbx5_fb1_fb2.bw
+    shortLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal
+    longLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2
+    type bigWig -0.25 37.6
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    color 230,102,102
+    
+    
+track Akerberg_GSM3518657_Foetal_Tbx5_fb1
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_F_Tbx5_fb1.quality.no.dplcts.bw
-    shortLabel Akerberg_GSM3518657
-    longLabel Akerberg_GSM3518657_F_Tbx5_fb1
+    shortLabel Akerberg_GSM3518657_Foetal
+    longLabel Akerberg_GSM3518657_Foetal_Tbx5_fb1
     type bigWig -0.25 37.6
     configurable on
     visibility full
@@ -53,10 +70,10 @@ track Akerberg_GSM3518657_F_Tbx5_fb1
     color 250,102,102
     
 
-track Akerberg_GSM3518659_F_Tbx5_fb2
+track Akerberg_GSM3518659_Foetal_Tbx5_fb2
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_F_Tbx5_fb2.quality.no.dplcts.bw
-    shortLabel Akerberg_GSM3518659
-    longLabel Akerberg_GSM3518659_F_Tbx5_fb2
+    shortLabel Akerberg_GSM3518659_Foetal
+    longLabel Akerberg_GSM3518659_Foetal_Tbx5_fb2
     type bigWig -0.25 37.6
     configurable on
     visibility full
@@ -71,6 +88,7 @@ track Akerberg_GSM3518659_F_Tbx5_fb2
         
  
 track Akerberg_GSM3518657_F_Tbx5_fb1_regions
+    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_GSM3518658_F_Tbx5_fb1_peaks.no.artfs_only_regions.bb
     shortLabel Akerberg_GSM3518657_regions
     longLabel Akerberg_GSM3518657_F_Tbx5_fb1_regions       
     type bigBed 3 . 
@@ -138,28 +156,45 @@ track ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
     gridDefault off
     
     
-        track Akerberg_GSM3518674_A_Tbx5_fb1
+        track Akerberg_GSM3518674_Adult_Tbx5_fb1
         parent ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
         https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_A_Tbx5_fb1.quality.no.dplcts.bw
-        shortLabel Akerberg_GSM3518657
-        longLabel Akerberg_GSM3518657_F_Tbx5_fb1
+        shortLabel Akerberg_GSM3518657_Foetal
+        longLabel Akerberg_GSM3518657_Foetal_Tbx5_fb1
         type bigWig
         color 250,102,102
           
 
-        track Akerberg_GSM3518675_A_Tbx5_fb2
+        track Akerberg_GSM3518675_Adult_Tbx5_fb2
         parent ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
         https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_A_Tbx5_fb2.quality.no.dplcts.bw
-        shortLabel Akerberg_GSM3518659
-        longLabel Akerberg_GSM3518659_F_Tbx5_fb2
+        shortLabel Akerberg_GSM3518659_Adult
+        longLabel Akerberg_GSM3518659_Adult_Tbx5_fb2
         type bigWig
         color 204,102,102
         
-        
-track Akerberg_GSM3518674_A_Tbx5_fb1
+
+track Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2
+    https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518674_GSM3518675_A_Tbx5_fb1_fb2.bw
+    shortLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult
+    longLabel Akerberg_intersect_GSM3518674_GSM3518675_Adult_Tbx5_fb1_fb2
+    type bigWig -0.25 37.6
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    color 230,102,102
+
+
+track Akerberg_GSM3518674_Adult_Tbx5_fb1
     https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518674_A_Tbx5_fb1.quality.no.dplcts.bw
-    shortLabel Akerberg_GSM3518674
-    longLabel Akerberg_GSM3518674_A_Tbx5_fb1
+    shortLabel Akerberg_GSM3518674_Adult
+    longLabel Akerberg_GSM3518674_Adult_Tbx5_fb1
     type bigWig -0.25 37.6
     configurable on
     visibility full
@@ -173,10 +208,10 @@ track Akerberg_GSM3518674_A_Tbx5_fb1
     color 250,102,102
     
 
-track Akerberg_GSM3518675_A_Tbx5_fb2
+track Akerberg_GSM3518675_Adult_Tbx5_fb2
     https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_A_Tbx5_fb2.quality.no.dplcts.bw
-    shortLabel Akerberg_GSM3518675
-    longLabel Akerberg_GSM3518675_A_Tbx5_fb2
+    shortLabel Akerberg_GSM3518675_Adult
+    longLabel Akerberg_GSM3518675_Adult_Tbx5_fb2
     type bigWig -0.25 37.6
     configurable on
     visibility full
