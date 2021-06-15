@@ -45,7 +45,7 @@ configurable on
 visibility full
 windowingFunction mean+whiskers
 viewLimits 0.816622:10
-viewLimitsMax 0:20
+viewLimitsMax 0.816622:124.127
 maxHeightPixels 100:30:18
 yLineOnOff off
 yLineMark 1
@@ -62,7 +62,7 @@ configurable on
 visibility full
 windowingFunction mean+whiskers
 viewLimits 0.816622:10
-viewLimitsMax 0:20
+viewLimitsMax 0.816622:124.127
 maxHeightPixels 128:30:11 
 yLineOnOff off
 yLineMark 1
@@ -79,7 +79,7 @@ configurable on
 visibility full
 windowingFunction mean+whiskers
 viewLimits 0.816622:10
-viewLimitsMax 0:20
+viewLimitsMax 0.816622:124.127
 maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
@@ -129,7 +129,7 @@ track ChIPseq_Overlay_Akerberg_GSM3518674_GSM3518675_Adult_Tbx5
     visibility full
     windowingFunction mean+whiskers
     viewLimits 0.816622:10
-    viewLimitsMax 0:20
+    viewLimitsMax 0.816622:124.127
     maxHeightPixels 128:30:11
     aggregate transparentOverlay
     showSubtrackColorOnUi on
@@ -167,7 +167,7 @@ configurable on
 visibility full
 windowingFunction mean+whiskers
 viewLimits 0.816622:10
-viewLimitsMax 0:20
+viewLimitsMax 0.816622:124.127
 maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
@@ -184,7 +184,7 @@ configurable on
 visibility full
 windowingFunction mean+whiskers
 viewLimits 0.816622:10
-viewLimitsMax 0:20
+viewLimitsMax 0.816622:124.127
 maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
@@ -201,7 +201,7 @@ configurable on
 visibility full
 windowingFunction mean+whiskers
 viewLimits 0.816622:10
-viewLimitsMax 0:20
+viewLimitsMax 0.816622:124.127
 maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
