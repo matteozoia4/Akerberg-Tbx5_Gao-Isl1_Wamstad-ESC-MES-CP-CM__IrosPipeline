@@ -246,7 +246,7 @@ track Gao_GSM3597759_E8_75_Isl1
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Gao_Isl1_IrosPipeline/GSM3597759_E8_75_Isl1_quality_no_dplcts.bw
 shortLabel Gao_Embrio
 longLabel Gao_GSM3597759_E8_75_Isl1
-type bigWig 0 3000
+type bigWig 0.816622 10
 configurable on
 visibility full
 windowingFunction mean+whiskers
@@ -306,3 +306,53 @@ track ChIPseq_Overlay_Gao_GSM3597784_GSM3597785_Day5_CPC_Isl1_rep1_rep2
         longLabel Gao_GSM3597785_Day5_CPC_Isl1_IP_rep2
         type bigWig
         color 102,153,255
+
+
+track Gao_intersect_GSM3597784_GSM3597785_CPC_Isl1_IP_rep1_rep2
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Gao_Isl1_IrosPipeline/intersect_GSM3597784_GSM3597785_CPC_Isl1_IP_rep1_2.bw
+shortLabel Gao_CPC
+longLabel Gao_intersect_GSM3597784_GSM3597785_CPC_Isl1_IP_rep1_rep2
+type bigWig 0.816622 10
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 102,130,255
+
+
+track Gao_GSM3597784_Day5_CPC_Isl1_rep1_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Gao_Isl1_IrosPipeline/GSM3597783_GSM3597784_Day5_CPC_Isl1_rep1_peaks.no.artfs_only_regions.bb
+itemRgb on
+shortLabel Gao_CPC
+longLabel Gao_GSM3597784_Day5_CPC_Isl1_rep1_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 102,102,255        
+
+
+track Gao_GSM3597785_Day5_CPC_Isl1_rep2_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Gao_Isl1_IrosPipeline/GSM3597783_GSM3597785_Day5_CPC_Isl1_rep2_peaks.no.artfs_only_regions.bb
+itemRgb on
+shortLabel Gao_CPC
+longLabel Gao_GSM3597785_Day5_CPC_Isl1_rep2_regions        
+type bigBed 3 . 
+configurable on
+visibility dense
+color 102,153,255
+        
+        
+track Gao_intersect_GSM3597784_GSM3597785_Day5_CPC_Isl1_rep1_rep2_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Gao_Isl1_IrosPipeline/intersect_GSM3597783_GSM3597784_GSM3597783_GSM3597785_Day5_CPC_Isl1_rep1_rep2_only_regions.bb
+itemRgb on
+shortLabel Gao_CPC
+longLabel Gao_intersect_GSM3597784_GSM3597785_Day5_CPC_Isl1_rep1_rep2_regions       
+type bigBed 3 . 
+configurable on
+visibility dense
+color 102,130,255
