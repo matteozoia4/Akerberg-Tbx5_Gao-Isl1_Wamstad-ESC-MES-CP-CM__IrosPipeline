@@ -246,7 +246,7 @@ track Gao_GSM3597759_E8_75_Isl1
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Gao_Isl1_IrosPipeline/GSM3597759_E8_75_Isl1_quality_no_dplcts.bw
 shortLabel Gao_Embrio
 longLabel Gao_GSM3597759_E8_75_Isl1
-type bigWig 0.816622 124.127
+type bigWig 0 3000
 configurable on
 visibility full
 windowingFunction mean+whiskers
