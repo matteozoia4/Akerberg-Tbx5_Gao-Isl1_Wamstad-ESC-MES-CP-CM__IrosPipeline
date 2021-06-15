@@ -242,3 +242,29 @@ visibility dense
 color 230,102,102
          
         
+track Gao_GSM3597759_E8_75_Isl1
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Gao_Isl1_IrosPipeline/GSM3597759_E8_75_Isl1_quality_no_dplcts.bw
+shortLabel Gao_GSM3597759
+longLabel Gao_GSM3597759_E8_75_Isl1
+type bigWig 0.816622 124.127
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0.816622:10
+viewLimitsMax 0.816622:124.127
+maxHeightPixels 128:30:11
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 102,102,255         
+        
+        
+track Gao_GSM3597759_E8_75_Isl1_regions
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Gao_Isl1_IrosPipeline/GSM3597759_GSM3597760_E8_75_Isl1_peaks.no.artfs_only_regions.bb
+itemRgb on
+shortLabel Gao_GSM3597759_regions
+longLabel Gao_GSM3597759_E8_75_Isl1_regions       
+type bigBed 3 . 
+configurable on
+visibility dense
+color 102,102,255        
