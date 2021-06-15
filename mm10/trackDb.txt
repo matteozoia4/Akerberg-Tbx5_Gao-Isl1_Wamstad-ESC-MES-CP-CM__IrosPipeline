@@ -196,7 +196,7 @@ track Akerberg_GSM3518675_Adult_Tbx5__fb2
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518675_A_Tbx5_fb2.quality.no.dplcts.bw
 shortLabel Akerberg_GSM3518675__Adult
 longLabel Akerberg_GSM3518675_Adult_Tbx5__fb2
-type bigWig 0.816622 124.127
+type bigWig 0 30000
 configurable on
 visibility full
 windowingFunction mean+whiskers
