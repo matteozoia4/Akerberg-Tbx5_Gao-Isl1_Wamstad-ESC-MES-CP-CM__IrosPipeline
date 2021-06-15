@@ -63,7 +63,7 @@ track Akerberg_GSM3518657_Foetal_Tbx5_fb1
     windowingFunction mean+whiskers
     viewLimits 0:20
     viewLimitsMax 0:20
-    maxHeightPixels 100:30:18
+    maxHeightPixels 100:30:18 
     yLineOnOff off
     yLineMark 1
     gridDefault off
