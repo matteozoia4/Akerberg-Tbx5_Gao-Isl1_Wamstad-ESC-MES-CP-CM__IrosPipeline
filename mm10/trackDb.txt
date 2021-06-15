@@ -37,54 +37,54 @@ track ChIPseq_Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5
 
 
 track Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2
-    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518657_GSM3518659_F_Tbx5_fb1_fb2.bw
-    shortLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal
-    longLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2
-    type bigWig -0.25 37.6
-    configurable on
-    visibility full
-    windowingFunction mean+whiskers
-    viewLimits 0:20
-    viewLimitsMax 0:20
-    maxHeightPixels 100:30:18
-    yLineOnOff off
-    yLineMark 1
-    gridDefault off
-    color 230,102,102
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/intersect_GSM3518657_GSM3518659_F_Tbx5_fb1_fb2.bw
+shortLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal
+longLabel Akerberg_intersect_GSM3518657_GSM3518659_Foetal_Tbx5_fb1_fb2
+type bigWig -0.25 37.6
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0:20
+viewLimitsMax 0:20
+maxHeightPixels 100:30:18
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 230,102,102
     
     
 track Akerberg_GSM3518657_Foetal_Tbx5_fb1
-    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_F_Tbx5_fb1.quality.no.dplcts.bw
-    shortLabel Akerberg_GSM3518657_Foetal
-    longLabel Akerberg_GSM3518657_Foetal_Tbx5_fb1
-    type bigWig -0.25 37.6
-    configurable on
-    visibility full
-    windowingFunction mean+whiskers
-    viewLimits 0:20
-    viewLimitsMax 0:20
-    maxHeightPixels 100:30:18 
-    yLineOnOff off
-    yLineMark 1
-    gridDefault off
-    color 250,102,102
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518657_F_Tbx5_fb1.quality.no.dplcts.bw
+shortLabel Akerberg_GSM3518657_Foetal
+longLabel Akerberg_GSM3518657_Foetal_Tbx5_fb1
+type bigWig -0.25 37.6
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0:20
+viewLimitsMax 0:20
+maxHeightPixels 100:30:18 
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 250,102,102
     
 
 track Akerberg_GSM3518659_Foetal_Tbx5_fb2
-    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_F_Tbx5_fb2.quality.no.dplcts.bw
-    shortLabel Akerberg_GSM3518659_Foetal
-    longLabel Akerberg_GSM3518659_Foetal_Tbx5_fb2
-    type bigWig -0.25 37.6
-    configurable on
-    visibility full
-    windowingFunction mean+whiskers
-    viewLimits 0:20
-    viewLimitsMax 0:20
-    maxHeightPixels 100:30:18
-    yLineOnOff off
-    yLineMark 1
-    gridDefault off
-    color 204,102,102
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_F_Tbx5_fb2.quality.no.dplcts.bw
+shortLabel Akerberg_GSM3518659_Foetal
+longLabel Akerberg_GSM3518659_Foetal_Tbx5_fb2
+type bigWig -0.25 37.6
+configurable on
+visibility full
+windowingFunction mean+whiskers
+viewLimits 0:20
+viewLimitsMax 0:20
+maxHeightPixels 100:30:18
+yLineOnOff off
+yLineMark 1
+gridDefault off
+color 204,102,102
         
  
 track Akerberg_GSM3518657_Foetal_Tbx5_fb1_regions
