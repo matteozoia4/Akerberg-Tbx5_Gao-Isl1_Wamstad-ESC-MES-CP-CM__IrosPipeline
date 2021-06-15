@@ -1,5 +1,5 @@
-hub ATACseqOverlayGelangFernandezAbassah
-shortLabel ATACseqOverlay
-longLabel ATACseqOverlayGelangFernandezAbassah
+hub ChIPseqAkerbergTbx5GaoIsl1
+shortLabel ChIPseqAkerbergTbx5GaoIsl1
+longLabel ChIPseqAkerbergTbx5GaoIsl1
 genomesFile genomes.txt 
 email  matteo.zoia@dbmr.unibe.ch
