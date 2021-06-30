@@ -1513,4 +1513,4 @@ longLabel Intersect_Wamstad_SRR900953_SRR900954_H3K27ac_CM_Rep_1_2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 204,153,76
+color 204,153,76 
