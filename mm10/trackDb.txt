@@ -267,7 +267,7 @@ longLabel Gao_GSM3597759_E8_75_Isl1_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 102,102,255        
+color 127,201,88        
 
 
 track ChIPseq_Overlay_Gao_GSM3597784_GSM3597785_Day5_CPC_Isl1_rep1_rep2
@@ -296,7 +296,7 @@ track ChIPseq_Overlay_Gao_GSM3597784_GSM3597785_Day5_CPC_Isl1_rep1_rep2
         shortLabel Gao_CPC
         longLabel Gao_GSM3597784_Day5_CPC_Isl1_IP_rep1
         type bigWig
-        color 102,102,255
+        color 242,70,50
           
 
         track Gao_GSM3597785_Day5_CPC_Isl1_IP_rep2
@@ -305,7 +305,7 @@ track ChIPseq_Overlay_Gao_GSM3597784_GSM3597785_Day5_CPC_Isl1_rep1_rep2
         shortLabel Gao_CPC
         longLabel Gao_GSM3597785_Day5_CPC_Isl1_IP_rep2
         type bigWig
-        color 102,153,255
+        color 186,29,24
 
 
 track Gao_GSM3597784_Day5_CPC_Isl1_IP__rep1
@@ -322,7 +322,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 102,102,255
+color 242,70,50
 
 
 track Gao_GSM3597785_Day5_CPC_Isl1_IP__rep2
@@ -339,7 +339,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 102,153,255
+color 186,29,24
 
 
 track Gao_intersect_GSM3597784_GSM3597785_CPC_Isl1_IP_rep1_rep2
@@ -356,7 +356,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 102,130,255
+color 216,52,53
 
 
 track Gao_GSM3597784_Day5_CPC_Isl1_rep1_regions
@@ -367,7 +367,7 @@ longLabel Gao_GSM3597784_Day5_CPC_Isl1_rep1_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 102,102,255        
+color 242,70,50        
 
 
 track Gao_GSM3597785_Day5_CPC_Isl1_rep2_regions
@@ -378,7 +378,7 @@ longLabel Gao_GSM3597785_Day5_CPC_Isl1_rep2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 102,153,255
+color 186,29,24
         
         
 track Gao_intersect_GSM3597784_GSM3597785_Day5_CPC_Isl1_rep1_rep2_regions
@@ -389,7 +389,7 @@ longLabel Gao_intersect_GSM3597784_GSM3597785_Day5_CPC_Isl1_rep1_rep2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 102,130,255
+color 216,52,53
 
 
 track Wamstad_SRR900935_H3K4me1_ESC_Rep_1
@@ -406,7 +406,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 255,153,51
+color 127,201,88
 
 
 track Wamstad_SRR900935_H3K4me1_ESC_Rep_1_regions
@@ -417,7 +417,7 @@ longLabel Wamstad_SRR900935_H3K4me1_ESC_Rep_1_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 255,153,51        
+color 127,201,88        
 
 
 track Wamstad_SRR900936_H3K4me1_ESC_Rep_2
@@ -434,7 +434,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 204,153,51
+color 166,224,60
 
 
 track Wamstad_SRR900936_H3K4me1_ESC_Rep_2_regions
@@ -445,7 +445,7 @@ longLabel Wamstad_SRR900936_H3K4me1_ESC_Rep_2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 204,153,51        
+color 166,224,60        
 
 
 track Wamstad_SRR900937_H3K4me1_ESC_Rep_3
@@ -462,7 +462,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 153,153,102
+color 31,191,105
 
 
 track Wamstad_SRR900937_H3K4me1_ESC_Rep_3_regions
@@ -502,7 +502,7 @@ track Overlay_Wamstad_SRR900935_SRR900936_SRR900937_H3K4me1_ESC_Rep_1_2_3
         shortLabel Wamstad_ESC
         longLabel Wamstad_SRR900935_H3K4me1_ESC_Rep_1
         type bigWig
-        color 255,153,51
+        color 127,201,88
           
 
         track Wamstad_SRR900936_H3K4me1_ESC_Rep_2_
@@ -511,7 +511,7 @@ track Overlay_Wamstad_SRR900935_SRR900936_SRR900937_H3K4me1_ESC_Rep_1_2_3
         shortLabel Wamstad_ESC
         longLabel Wamstad_SRR900936_H3K4me1_ESC_Rep_2
         type bigWig
-        color 204,153,51
+        color 166,224,60
 
 
         track Wamstad_SRR900937_H3K4me1_ESC_Rep_3_
@@ -520,7 +520,7 @@ track Overlay_Wamstad_SRR900935_SRR900936_SRR900937_H3K4me1_ESC_Rep_1_2_3
         shortLabel Wamstad_ESC
         longLabel Wamstad_SRR900937_H3K4me1_ESC_Rep_3
         type bigWig
-        color 153,153,102
+        color 31,191,105
 
       
 track Intersect_Wamstad_SRR900935_SRR900936_SRR900937_H3K4me1_ESC_Rep_1_2_3
@@ -537,7 +537,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 204,153,76
+color 108,205,84
 
 
 track Intersect_Wamstad_SRR900935_SRR900936_SRR900937_H3K4me1_ESC_Rep_1_2_3_regions
@@ -548,7 +548,7 @@ longLabel Intersect_Wamstad_SRR900935_SRR900936_SRR900937_H3K4me1_ESC_Rep_1_2_3_
 type bigBed 3 . 
 configurable on
 visibility dense
-color 204,153,76
+color 108,205,84
 
 
 track Wamstad_SRR900938_H3K4me1_MES_Rep_1
@@ -565,7 +565,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 255,153,51
+color 255,171,81
 
 
 track Wamstad_SRR900938_H3K4me1_MES_Rep_1_regions
@@ -576,7 +576,7 @@ longLabel Wamstad_SRR900938_H3K4me1_MES_Rep_1_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 255,153,51        
+color 255,171,81        
 
 
 track Wamstad_SRR90039_H3K4me1_MES_Rep_2
@@ -593,7 +593,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 204,153,51
+color 207,93,56
 
 
 track Wamstad_SRR900939_H3K4me1_MES_Rep_2_regions
@@ -604,7 +604,7 @@ longLabel Wamstad_SRR900939_H3K4me1_MES_Rep_2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 204,153,51        
+color 207,93,56        
 
 
 track Wamstad_SRR900940_H3K4me1_MES_Rep_3
@@ -621,7 +621,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 153,153,102
+color 249,130,64
 
 
 track Wamstad_SRR900940_H3K4me1_MES_Rep_3_regions
@@ -632,7 +632,7 @@ longLabel Wamstad_SRR900940_H3K4me1_MES_Rep_3_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 153,153,102
+color 249,130,64
 
 
 track Overlay_Wamstad_SRR900938_SRR900939_SRR900940_H3K4me1_MES_Rep_1_2_3
@@ -661,7 +661,7 @@ track Overlay_Wamstad_SRR900938_SRR900939_SRR900940_H3K4me1_MES_Rep_1_2_3
         shortLabel Wamstad_MES
         longLabel Wamstad_SRR900938_H3K4me1_MES_Rep_1
         type bigWig
-        color 255,153,51
+        color 255,171,81
           
 
         track Wamstad_SRR900939_H3K4me1_MES_Rep_2_
@@ -670,7 +670,7 @@ track Overlay_Wamstad_SRR900938_SRR900939_SRR900940_H3K4me1_MES_Rep_1_2_3
         shortLabel Wamstad_MES
         longLabel Wamstad_SRR900939_H3K4me1_MES_Rep_2
         type bigWig
-        color 204,153,51
+        color 207,93,56
 
 
         track Wamstad_SRR900940_H3K4me1_MES_Rep_3_
@@ -679,7 +679,7 @@ track Overlay_Wamstad_SRR900938_SRR900939_SRR900940_H3K4me1_MES_Rep_1_2_3
         shortLabel Wamstad_MES
         longLabel Wamstad_SRR900940_H3K4me1_MES_Rep_3
         type bigWig
-        color 153,153,102
+        color 249,130,64
 
 
 track Intersect_Wamstad_SRR900938_SRR900939_SRR900940_H3K4me1_MES_Rep_1_2_3
@@ -696,7 +696,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 204,153,76 
+color 237,131,67 
  
  
 track Intersect_Wamstad_SRR900938_SRR900939_SRR900940_H3K4me1_MES_Rep_1_2_3_regions
@@ -707,7 +707,7 @@ longLabel Intersect_Wamstad_SRR900938_SRR900939_SRR900940_H3K4me1_MES_Rep_1_2_3_
 type bigBed 3 . 
 configurable on
 visibility dense
-color 204,153,76
+color 237,131,67
 
 
 track Wamstad_SRR900941_H3K4me1_CP_Rep_1
@@ -724,7 +724,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 255,153,51
+color 242,70,50
 
 
 track Wamstad_SRR900941_H3K4me1_CP_Rep_1_regions
@@ -735,7 +735,7 @@ longLabel Wamstad_SRR900941_H3K4me1_CP_Rep_1_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 255,153,51        
+color 242,70,50        
 
 
 track Wamstad_SRR900942_H3K4me1_CP_Rep_2
@@ -752,7 +752,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 204,153,51
+color 186,29,24
 
 
 track Wamstad_SRR900942_H3K4me1_CP_Rep_2_regions
@@ -763,7 +763,7 @@ longLabel Wamstad_SRR900942_H3K4me1_CP_Rep_2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 204,153,51
+color 186,29,24
 
 
 track Wamstad_SRR900943_H3K4me1_CP_Rep_3
@@ -780,7 +780,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 153,153,102
+color 222,58,85
 
 
 track Wamstad_SRR900943_H3K4me1_CP_Rep_3_regions
@@ -791,7 +791,7 @@ longLabel Wamstad_SRR900943_H3K4me1_CP_Rep_3_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 153,153,102
+color 222,58,85
 
 
 track Overlay_Wamstad_SRR900941_SRR900942_SRR900943_H3K4me1_CP_Rep_1_2_3
@@ -820,7 +820,7 @@ track Overlay_Wamstad_SRR900941_SRR900942_SRR900943_H3K4me1_CP_Rep_1_2_3
         shortLabel Wamstad_CP
         longLabel Wamstad_SRR900941_H3K4me1_CP_Rep_1
         type bigWig
-        color 255,153,51
+        color 242,70,50
           
 
         track Wamstad_SRR900942_H3K4me1_CP_Rep_2_
@@ -829,7 +829,7 @@ track Overlay_Wamstad_SRR900941_SRR900942_SRR900943_H3K4me1_CP_Rep_1_2_3
         shortLabel Wamstad_CP
         longLabel Wamstad_SRR900942_H3K4me1_CP_Rep_2
         type bigWig
-        color 204,153,51
+        color 186,29,24
 
 
         track Wamstad_SRR900943_H3K4me1_CP_Rep_3_
@@ -838,7 +838,7 @@ track Overlay_Wamstad_SRR900941_SRR900942_SRR900943_H3K4me1_CP_Rep_1_2_3
         shortLabel Wamstad_CP
         longLabel Wamstad_SRR900943_H3K4me1_CP_Rep_3
         type bigWig
-        color 153,153,102
+        color 222,58,85
 
 
 track Intersect_Wamstad_SRR900941_SRR900942_SRR900943_H3K4me1_CP_Rep_1_2_3
@@ -855,7 +855,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 204,153,76
+color 216,52,53
 
 
 track Intersect_Wamstad_SRR900941_SRR900942_SRR900943_H3K4me1_CP_Rep_1_2_3_regions
@@ -866,7 +866,7 @@ longLabel Intersect_Wamstad_SRR900941_SRR900942_SRR900943_H3K4me1_CP_Rep_1_2_3_r
 type bigBed 3 . 
 configurable on
 visibility dense
-color 204,153,76
+color 216,52,53
 
 
 track Wamstad_SRR900944_H3K4me1_CM_Rep_1
@@ -883,7 +883,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 255,153,51
+color 199,151,211
 
 
 track Wamstad_SRR900944_H3K4me1_CM_Rep_1_regions
@@ -894,7 +894,7 @@ longLabel Wamstad_SRR900944_H3K4me1_CM_Rep_1_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 255,153,51
+color 199,151,211
 
 
 track Wamstad_SRR900945_H3K4me1_CM_Rep_2
@@ -911,7 +911,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 204,153,51
+color 238,149,217
 
 
 track Wamstad_SRR900945_H3K4me1_CM_Rep_2_regions
@@ -922,7 +922,7 @@ longLabel Wamstad_SRR900945_H3K4me1_CM_Rep_2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 204,153,51        
+color 238,149,217        
 
 
 track Wamstad_SRR900946_H3K4me1_CM_Rep_3
@@ -939,7 +939,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 153,153,102
+color 253,154,251
 
 
 track Wamstad_SRR900946_H3K4me1_CM_Rep_3_regions
@@ -950,7 +950,7 @@ longLabel Wamstad_SRR900946_H3K4me1_CM_Rep_3_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 153,153,102
+color 253,154,251
 
 
 track Overlay_Wamstad_SRR900944_SRR900945_SRR900946_H3K4me1_CM_Rep_1_2_3
@@ -979,7 +979,7 @@ track Overlay_Wamstad_SRR900944_SRR900945_SRR900946_H3K4me1_CM_Rep_1_2_3
         shortLabel Wamstad_CM
         longLabel Wamstad_SRR900944_H3K4me1_CM_Rep_1
         type bigWig
-        color 255,153,51
+        color 199,151,211
           
 
         track Wamstad_SRR900945_H3K4me1_CM_Rep_2_
@@ -988,7 +988,7 @@ track Overlay_Wamstad_SRR900944_SRR900945_SRR900946_H3K4me1_CM_Rep_1_2_3
         shortLabel Wamstad_CM
         longLabel Wamstad_SRR900945_H3K4me1_CM_Rep_2
         type bigWig
-        color 204,153,51
+        color 238,149,217
 
 
         track Wamstad_SRR900946_H3K4me1_CM_Rep_3_
@@ -997,7 +997,7 @@ track Overlay_Wamstad_SRR900944_SRR900945_SRR900946_H3K4me1_CM_Rep_1_2_3
         shortLabel Wamstad_CM
         longLabel Wamstad_SRR900946_H3K4me1_CM_Rep_3
         type bigWig
-        color 153,153,102
+        color 253,154,251
 
 
 track Intersect_Wamstad_SRR900944_SRR900945_SRR900946_H3K4me1_CM_Rep_1_2_3
@@ -1014,7 +1014,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 204,153,76
+color 230,151,226
 
 
 track Intersect_Wamstad_SRR900944_SRR900945_SRR900946_H3K4me1_CM_Rep_1_2_3_regions
@@ -1025,7 +1025,7 @@ longLabel Intersect_Wamstad_SRR900944_SRR900945_SRR900946_H3K4me1_CM_Rep_1_2_3_r
 type bigBed 3 . 
 configurable on
 visibility dense
-color 204,153,76
+color 230,151,226
 
 
 track Wamstad_SRR900947_H3K27ac_ESC_Rep_1
@@ -1042,7 +1042,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 255,153,51
+color 127,201,88
 
 
 track Wamstad_SRR900947_H3K27ac_ESC_Rep_1_regions
@@ -1053,7 +1053,7 @@ longLabel Wamstad_SRR900947_H3K27ac_ESC_Rep_1_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 255,153,51        
+color 127,201,88        
 
 
 track Wamstad_SRR900948_H3K27ac_ESC_Rep_2
@@ -1070,7 +1070,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 255,153,51
+color 166,224,60
 
 
 track Wamstad_SRR900948_H3K27ac_ESC_Rep_2_regions
@@ -1081,7 +1081,7 @@ longLabel Wamstad_SRR900948_H3K27ac_ESC_Rep_2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 255,153,51        
+color 166,224,60        
 
 
 track Overlay_Wamstad_SRR900947_SRR900948_H3K27ac_ESC_Rep_1_2
@@ -1110,7 +1110,7 @@ track Overlay_Wamstad_SRR900947_SRR900948_H3K27ac_ESC_Rep_1_2
         shortLabel Wamstad_ESC
         longLabel Wamstad_SRR900947_H3K27ac_ESC_Rep_1
         type bigWig
-        color 255,153,51
+        color 127,201,88
           
 
         track Wamstad_SRR900948_H3K27ac_ESC_Rep_2_
@@ -1136,7 +1136,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 237,131,67
+color 108,205,84
 
       
 track Intersect_Wamstad_SRR900947_SRR900948_H3K27ac_ESC_Rep_1_2_regions
@@ -1147,7 +1147,7 @@ longLabel Intersect_Wamstad_SRR900947_SRR900948_H3K27ac_ESC_Rep_1_2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 237,131,67
+color 108,205,84
 
 
 track Wamstad_SRR900949_H3K27ac_MES_Rep_1
@@ -1164,7 +1164,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 255,153,51
+color 255,171,81
 
 
 track Wamstad_SRR900949_H3K27ac_MES_Rep_1_regions
@@ -1175,7 +1175,7 @@ longLabel Wamstad_SRR900949_H3K27ac_MES_Rep_1_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 255,153,51        
+color 255,171,81        
 
 
 track Wamstad_SRR900950_H3K27ac_MES_Rep_2
@@ -1192,7 +1192,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 255,153,51
+color 207,93,56
 
 
 track Wamstad_SRR900950_H3K27ac_MES_Rep_2_regions
@@ -1203,7 +1203,7 @@ longLabel Wamstad_SRR900950_H3K27ac_MES_Rep_2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 255,153,51        
+color 207,93,56        
 
 
 track Overlay_Wamstad_SRR900949_SRR900950_H3K27ac_MES_Rep_1_2
@@ -1232,7 +1232,7 @@ track Overlay_Wamstad_SRR900949_SRR900950_H3K27ac_MES_Rep_1_2
         shortLabel Wamstad_H3K27a_MES
         longLabel Wamstad_SRR900949_H3K27ac_MES_Rep_1
         type bigWig
-        color 255,153,51
+        color 255,171,81
           
 
         track Wamstad_SRR900950_H3K27ac_MES_Rep_2_
@@ -1241,7 +1241,7 @@ track Overlay_Wamstad_SRR900949_SRR900950_H3K27ac_MES_Rep_1_2
         shortLabel Wamstad_MES
         longLabel Wamstad_SRR900950_H3K27ac_MES_Rep_2
         type bigWig
-        color 204,153,51
+        color 207,93,56
 
 
 track Intersect_Wamstad_SRR900949_SRR900950_H3K27ac_MES_Rep_1_2
@@ -1258,7 +1258,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 255,153,51
+color 237,131,67
 
       
 track Intersect_Wamstad_SRR900949_SRR900950_H3K27ac_MES_Rep_1_2_regions
@@ -1269,7 +1269,7 @@ longLabel Intersect_Wamstad_SRR900949_SRR900950_H3K27ac_MES_Rep_1_2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 204,153,76
+color 237,131,67
 
 
 track Wamstad_SRR900951_H3K27ac_CP_Rep_1
@@ -1286,7 +1286,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 255,153,51
+color 242,70,50
 
 
 track Wamstad_SRR900951_H3K27ac_CP_Rep_1_regions
@@ -1297,7 +1297,7 @@ longLabel Wamstad_SRR900951_H3K27ac_CP_Rep_1_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 255,153,51        
+color 242,70,50        
 
 
 track Wamstad_SRR900952_H3K27ac_CP_Rep_2
@@ -1314,7 +1314,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 255,153,51
+color 186,29,24
 
 
 track Wamstad_SRR900952_H3K27ac_CP_Rep_2_regions
@@ -1325,7 +1325,7 @@ longLabel Wamstad_SRR900952_H3K27ac_CP_Rep_2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 255,153,51        
+color 186,29,24        
 
 
 track Overlay_Wamstad_SRR900951_SRR900952_H3K27ac_CP_Rep_1_2
@@ -1354,7 +1354,7 @@ track Overlay_Wamstad_SRR900951_SRR900952_H3K27ac_CP_Rep_1_2
         shortLabel Wamstad_CP
         longLabel Wamstad_SRR900951_H3K27ac_CP_Rep_1
         type bigWig
-        color 255,153,51
+        color 242,70,50
           
 
         track Wamstad_SRR900952_H3K27ac_CP_Rep_2_
@@ -1363,7 +1363,7 @@ track Overlay_Wamstad_SRR900951_SRR900952_H3K27ac_CP_Rep_1_2
         shortLabel Wamstad_CP
         longLabel Wamstad_SRR900952_H3K27ac_CP_Rep_2
         type bigWig
-        color 204,153,51
+        color 186,29,24
 
 
 track Intersect_Wamstad_SRR900951_SRR900952_H3K27ac_CP_Rep_1_2
@@ -1380,7 +1380,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 255,153,51
+color 216,52,53
 
       
 track Intersect_Wamstad_SRR900951_SRR900952_H3K27ac_CP_Rep_1_2_regions
@@ -1391,7 +1391,7 @@ longLabel Intersect_Wamstad_SRR900951_SRR900952_H3K27ac_CP_Rep_1_2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 204,153,76
+color 216,52,53
 
 
 track Wamstad_SRR900953_H3K27ac_CM_Rep_1
@@ -1408,7 +1408,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 255,153,51
+color 199,151,211
 
 
 track Wamstad_SRR900953_H3K27ac_CM_Rep_1_regions
@@ -1419,7 +1419,7 @@ longLabel Wamstad_SRR900953_H3K27ac_CM_Rep_1_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 255,153,51        
+color 199,151,211        
 
 
 track Wamstad_SRR900954_H3K27ac_CM_Rep_2
@@ -1436,7 +1436,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 255,153,51
+color 238,149,217
 
 
 track Wamstad_SRR900954_H3K27ac_CM_Rep_2_regions
@@ -1447,7 +1447,7 @@ longLabel Wamstad_SRR900954_H3K27ac_CM_Rep_2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 255,153,51        
+color 238,149,217        
 
 
 track Overlay_Wamstad_SRR900953_SRR900954_H3K27ac_CM_Rep_1_2
@@ -1476,7 +1476,7 @@ track Overlay_Wamstad_SRR900953_SRR900954_H3K27ac_CM_Rep_1_2
         shortLabel Wamstad_H3K27a_CM
         longLabel Wamstad_SRR900953_H3K27ac_CM_Rep_1
         type bigWig
-        color 255,153,51
+        color 199,151,211
           
 
         track Wamstad_SRR900954_H3K27ac_CM_Rep_2_
@@ -1485,7 +1485,7 @@ track Overlay_Wamstad_SRR900953_SRR900954_H3K27ac_CM_Rep_1_2
         shortLabel Wamstad_CM
         longLabel Wamstad_SRR900954_H3K27ac_CM_Rep_2
         type bigWig
-        color 204,153,51
+        color 238,149,217
 
 
 track Intersect_Wamstad_SRR900953_SRR900954_H3K27ac_CM_Rep_1_2
@@ -1502,7 +1502,7 @@ maxHeightPixels 128:30:11
 yLineOnOff off
 yLineMark 1
 gridDefault off
-color 255,153,51
+color 230,151,226
 
       
 track Intersect_Wamstad_SRR900953_SRR900954_H3K27ac_CM_Rep_1_2_regions
@@ -1513,4 +1513,4 @@ longLabel Intersect_Wamstad_SRR900953_SRR900954_H3K27ac_CM_Rep_1_2_regions
 type bigBed 3 . 
 configurable on
 visibility dense
-color 204,153,76 
+color 230,151,226 
