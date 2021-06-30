@@ -1506,7 +1506,7 @@ color 230,151,226
 
       
 track Intersect_Wamstad_SRR900953_SRR900954_H3K27ac_CM_Rep_1_2_regions
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/H3K27ac/intersect_SRR900953_SRR900954.bw
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/ESC to CM ChIP-seq Wamstad mm10 GSE47948 - Nadia Wt1 (IrosPipeline)/H3K27ac/intersect_SRR900953_SRR900954_CM_rep1_2_only_regions.bb 
 itemRgb on
 shortLabel Wamstad_CM
 longLabel Intersect_Wamstad_SRR900953_SRR900954_H3K27ac_CM_Rep_1_2_regions       
