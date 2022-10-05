@@ -570,3 +570,62 @@ track ChIPseq_Overlay_Adult_Gata4_fb1_fb2
         longLabel GSM1260011_Adult_Gata4_fb2
         type bigWig
         color 204,102,102
+        
+        
+        
+track GSM1260024_E12.5_Gata4_Ab1_peaks
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akerberg_Gata4_Tead1_IrosPipeline_Genrich/GSM1260024_E12.5_Gata4_Ab1.bb
+itemRgb on
+shortLabel E12.5_Gata4_Ab1
+longLabel GSM1260024_E12.5_Gata4_Ab1_peaks       
+type bigBed 3 . 
+configurable on
+visibility dense
+color 242,70,50   
+
+track GSM1260025_E12.5_Gata4_Ab2_peaks
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akerberg_Gata4_Tead1_IrosPipeline_Genrich/GSM1260025_E12.5_Gata4_Ab2.bb
+itemRgb on
+shortLabel E12.5_Gata4_Ab2
+longLabel GSM1260025_E12.5_Gata4_Ab2_peaks       
+type bigBed 3 . 
+configurable on
+visibility dense
+color 186,29,24   
+
+track ChIPseq_Overlay_E12.5_Gata4_Ab1_Ab2
+    container multiWig
+    shortLabel Akerberg_E12.5
+    longLabel Overlay_ChIPseq_E12.5_Gata4_Ab1_Ab2 
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track GSM1260024_E12.5_Gata4_Ab1_profiles
+        parent ChIPseq_Overlay_E12.5_Gata4_Ab1_Ab2
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akerberg_Gata4_Tead1_IrosPipeline_Genrich/GSM1260024_E12.5_Gata4_Ab1.bw
+        shortLabel GSM1260024_E12.5_Gata4
+        longLabel GSM1260024_E12.5_Gata_Ab1
+        type bigWig
+        color 242,70,50 
+          
+
+        track GSM1260025_E12.5_Gata4_Ab2_profiles
+        parent ChIPseq_Overlay_E12.5_Gata4_Ab1_Ab2
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akerberg_Gata4_Tead1_IrosPipeline_Genrich/GSM1260025_E12.5_Gata4_Ab2.bw
+        shortLabel GSM1260025_E12.5_Gata4
+        longLabel GSM1260025_E12.5_Gata4_Ab2
+        type bigWig
+        color 186,29,24
