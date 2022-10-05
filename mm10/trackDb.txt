@@ -390,3 +390,45 @@ type bigBed 3 .
 configurable on
 visibility dense
 color 216,52,53
+
+
+
+
+
+
+track ChIPseq_Overlay_Adult_Gata4_Ab1_Ab2
+    container multiWig
+    shortLabel Akerberg_Foetal
+    longLabel Overlay_Akerberg_GSM3518657_GSM3518659_Foetal_Tbx5 
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track GSM1260008_Adult_Gata4_Ab1
+        parent ChIPseq_Overlay_Adult_Gata4_Ab1_Ab2
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akerberg_Gata4_Tead1_IrosPipeline_Genrich/GSM1260008_Adult_Gata4_Ab1.bw
+        shortLabel GSM1260008_Adult_Gata4
+        longLabel GSM1260008_Adult_Gata4_Ab1
+        type bigWig
+        color 250,102,102
+          
+
+        track GSM1260009_Adult_Gata4_Ab2
+        parent ChIPseq_Overlay_Adult_Gata4_Ab1_Ab2
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akeberg_Tbx5_IrosPipeline/GSM3518659_F_Tbx5_fb2.quality.no.dplcts.bw
+        shortLabel GSM1260009_Adult_Gata4
+        longLabel GSM1260009_Adult_Gata4_Ab2
+        type bigWig
+        color 204,102,102
