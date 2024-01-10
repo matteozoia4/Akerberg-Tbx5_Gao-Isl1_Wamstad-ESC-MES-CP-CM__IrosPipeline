@@ -453,63 +453,6 @@ track ChIPseq_Overlay_Adult_Gata4_Ab1_Ab2
         longLabel GSM1260009_Adult_Gata4_Ab2_profiles
         type bigWig
         color 204,102,102
-        
-        track GSM1260008_Adult_Gata4_Ab1_peaks
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akerberg_Gata4_Tead1_IrosPipeline_Genrich/GSM1260008_Adult_Gata4_Ab1.bb
-itemRgb on
-shortLabel Gata4_Adult_peaks_Ab1
-longLabel GSM1260008_Adult_Gata4_Ab1_peaks        
-type bigBed 3 . 
-configurable on
-visibility dense
-color 250,102,102   
-
-track GSM1260009_Adult_Gata4_Ab2_peaks
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akerberg_Gata4_Tead1_IrosPipeline_Genrich/GSM1260009_Adult_Gata4_Ab2.bb
-itemRgb on
-shortLabel Gata4_Adult_peaks_Ab2
-longLabel GSM1260009_Adult_Gata4_Ab2_peaks       
-type bigBed 3 . 
-configurable on
-visibility dense
-color 204,102,102  
-
-track ChIPseq_Overlay_Adult_Gata4_Ab1_Ab2
-    container multiWig
-    shortLabel Akerberg_Adult
-    longLabel Overlay_ChIPseq_Adult_Gata4_Ab1_Ab2 
-    type bigWig 0 30000
-    configurable on
-    visibility full
-    windowingFunction mean+whiskers
-    viewLimits 0.816622:10
-    viewLimitsMax 0.816622:124.127
-    maxHeightPixels 128:30:11
-    aggregate transparentOverlay
-    showSubtrackColorOnUi on
-    autoScale off
-    smoothingWindow off
-    yLineOnOff off
-    yLineMark 1
-    gridDefault off
-    
-    
-        track GSM1260008_Adult_Gata4_Ab1_profiles
-        parent ChIPseq_Overlay_Adult_Gata4_Ab1_Ab2
-        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akerberg_Gata4_Tead1_IrosPipeline_Genrich/GSM1260008_Adult_Gata4_Ab1.bw
-        shortLabel GSM1260008_Adult_Gata4
-        longLabel GSM1260008_Adult_Gata4_Ab1_profiles
-        type bigWig
-        color 250,102,102
-          
-
-        track GSM1260009_Adult_Gata4_Ab2_profiles
-        parent ChIPseq_Overlay_Adult_Gata4_Ab1_Ab2
-        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/matteozoia/analyses/Akerberg_Gata4_Tead1_IrosPipeline_Genrich/GSM1260009_Adult_Gata4_Ab2.bw
-        shortLabel GSM1260009_Adult_Gata4
-        longLabel GSM1260009_Adult_Gata4_Ab2_profiles
-        type bigWig
-        color 204,102,102track GSM1260008_Adult_Gata4_Ab1_peaks
  
  
  
